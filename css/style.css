@@ -1,0 +1,166 @@
+body {
+    background-color: #5B2386;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.bottom-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    opacity: 0.2;
+}
+
+p {
+    font-family: "OTEnjoystoriesBA", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #F5DF4D;
+    text-align: center;
+}
+
+.hour {
+    font-family: "GmarketSansMedium", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    background-image: url("/img/quotes.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 0 50px;
+
+}
+
+.hour span {
+    font-family: "GmarketSansBold", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+input[type="text"] {
+    font-family: "GmarketSansMedium", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    color: #BABCBE;
+    text-align: center;
+    border-radius: 7px;
+    width: 228px;
+    height: 57px;
+    margin: 10px;
+}
+
+.box {
+    font-family: "GmarketSansMedium", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.btn img {
+    position: relative;
+    top: 20px;
+    left: 1px;
+}
+
+button {
+    font-family: "GmarketSansMedium", sans-serif;
+    font-weight: 700;
+    background: #FCEE21;
+    font-size: 24px;
+    color: #5B2386;
+    border-radius: 56px;
+    width: 467px;
+    border: none;
+}
+
+.text {
+    font-family: "GmarketSansMedium", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.text span {
+    font-family: "GmarketSansBold", sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    color: #FFFFFF;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+@media (max-width: 938px) {
+    .container {
+        padding: 20px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+    input[type="text"] {
+        font-size: 20px;
+        width: 200px;
+        height: 50px;
+    }
+
+    button {
+        width: 70%;
+        height: 100px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+    .btn img {
+        position: relative;
+        top: 10px;
+        right: 10px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .text span {
+        font-size: 60px;
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+}
